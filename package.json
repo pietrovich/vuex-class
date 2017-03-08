@@ -1,6 +1,6 @@
 {
   "name": "vuex-class",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": "katashin",
   "description": "Binding helpers for Vuex and vue-class-component",
   "keywords": [
@@ -14,7 +14,10 @@
   "typings": "lib/index.d.ts",
   "files": [
     "dist",
-    "lib"
+    "lib",
+    "scripts",
+    "src",
+    "test"
   ],
   "homepage": "https://github.com/ktsn/vuex-class",
   "bugs": "https://github.com/ktsn/vuex-class/issues",
@@ -51,15 +54,15 @@
     "tslint": "^4.0.0",
     "tslint-config-ktsn": "^2.0.0",
     "typescript": "^2.1.4",
-    "vue": "^2.1.8",
-    "vue-class-component": "^4.4.0",
-    "vuex": "^2.1.1",
+    "vue": "^2.2.1",
+    "vue-class-component": "^5.0.0",
+    "vuex": "^2.2.1",
     "webpack": "^2.2.0-rc.2",
     "webpack-espower-loader": "^1.0.1"
   },
   "peerDependencies": {
-    "vue": "^2.0.0",
-    "vuex": "^2.0.0",
-    "vue-class-component": "^4.3.0"
+    "vue": "^2.2.1",
+    "vuex": "^2.2.1",
+    "vue-class-component": "^5.0.0"
   }
 }
